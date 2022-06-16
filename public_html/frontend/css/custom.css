@@ -1,0 +1,344 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+.adminCp:hover > .fa-gear{
+    animation:spin 4s linear infinite;
+}
+
+.productImage{
+    padding: 15px 15px 10px 15px;
+   
+}
+
+.categoryImage{
+   padding: 0px;
+}
+
+/*cookie alert*/
+.cc-nb-okagree, .cc-nb-reject{
+    background-color: #eb3e79 !important;
+}
+
+.freeprivacypolicy-com---nb{
+    border-radius: 15px 50px !important; 
+}
+/*Fin cookie alert*/
+
+.swal2-confirm{
+    background-color: #eb3e79 !important;
+}
+
+/*navbar*/
+.navbar-brand{
+    font-size: 30px !important;
+    font-family: 'Lobster', cursive;
+    transition: all 0.5s ease;
+}
+
+.navbar-brand:hover{
+    color: #eb3e79 !important;
+}
+
+.navbar-brand span{
+    color: #eb3e79
+}
+
+.frontNavbar{
+    background-color: #212529;
+}
+
+.nav-link:hover{
+    color: #d9688e !important
+}
+/*Fin navbar*/
+
+/*navbar sticky*/
+.sticky .frontNavbar{
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s ease;
+    background-color: transparent;
+    background: linear-gradient(to bottom, #212529cc 20%, rgba(0, 0, 0, 0));
+}
+
+
+.sticky a{
+    color: white !important;
+}
+
+.sticky a:hover{
+    color: #eb3e79 !important;
+}
+
+.sticky .dropdown-item{
+    color: black !important;
+}
+
+  
+.sticky + .content {
+    padding-top: 56px;
+}
+
+/*Fin navbar sticky*/
+
+/*Slider Carousel*/
+
+.show_slider_1, .show_slider_2, .show_slider_3{
+    width: 100%;
+    height: 800px;
+}
+
+.show_slider_1{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 70%,
+              rgba(255,255,255,1)), url(../../assets/images/slider1.jpg);
+    background-size: cover;
+}
+.show_slider_2{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 70%,
+              rgba(255,255,255,1)), url(../../assets/images/slider2.jpg); 
+    background-size: cover;
+}
+.show_slider_3{
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 70%,
+              rgba(255,255,255,1)), url(../../assets/images/slider3.jpg);  
+    background-size: cover;
+}
+/*Fin Slider Carousel*/
+
+.searchInput{
+    width: 30%;
+    margin-left: 5%;
+}
+
+.navSeparator {
+    margin-right: 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.384);
+    height: auto;
+  }
+
+.navLoginBtn{
+    transition: all 0.5s ease;
+}
+
+.navLoginBtn:hover{
+    background-color: rgba(118, 162, 255, 0.144);
+}
+
+.navRegisterBtn{
+    background-color: #eb3e785e;
+    transition: all 0.5s ease;
+}
+
+.navRegisterBtn:hover{
+    background-color: #eb3e78b7;
+}
+
+/*Navigator*/
+.navigatorDiv{
+    background: rgb(235,62,121);
+    background: linear-gradient(180deg, rgba(235,62,121,1) 57%, rgba(203,55,105,1) 100%); 
+}
+.navigatorDiv a{
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    
+}
+.navigatorDiv a:hover{
+    color: #212529;
+}
+/*Fin Navigator*/
+
+.agentChat{
+    bottom: 10px;
+    right: 10px;
+    position: fixed;
+}
+
+#trendingLavel{
+    font-size: 16px;
+}
+h6 a {
+    color: inherit; 
+} 
+
+.checkoutForm label{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.checkoutForm input{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.quantityInput::-webkit-outer-spin-button,
+.quantityInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.quantityInput[type=number] {
+  -moz-appearance: textfield;
+}
+
+.emptyCartFa{
+    color: rgb(124, 124, 124);
+}
+
+.orderDetails label{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.orderDetails div{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.faqText{
+    line-height: 20pt;
+}
+
+.cardShow:hover{
+    filter: contrast(90%);
+    -webkit-filter: contrast(90%);
+    -moz-filter: contrast(90%);
+}
+
+.linkCard:hover{
+    color: #eb3e79 !important;
+}
+
+
+.footerNavLink {
+    color: rgb(165, 165, 165);
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 50% 110%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    -webkit-transition: background-size .3s;
+    -moz-transition: background-size .3s;
+}
+.footerNavLink:hover, .footerNavLink:focus {
+    background-size: 100% 2px;
+    color: white;
+}
+
+.wishBadge{
+    background-color: rgb(148, 0, 0);
+}
+
+
+/*NOT FOUND ERROR*/
+  .bodyNotFound {
+    background: rgb(235,62,121);
+    background: linear-gradient(180deg, rgba(235,62,121,0.5018382352941176) 1%, rgba(0,235,255,0) 100%);
+  }
+  
+  #notfound {
+    position: relative;
+    height: 100vh;
+  }
+  
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound {
+    max-width: 520px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .notfound .notfound-404 {
+    position: relative;
+    height: 240px;
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 252px;
+    font-weight: 900;
+    margin: 0px;
+    color: #262626;
+    text-transform: uppercase;
+    letter-spacing: -40px;
+    margin-left: -20px;
+  }
+  
+  .notfound .notfound-404 h1>span {
+    text-shadow: -8px 0px 0px #d45881;
+  }
+  
+  .notfound .notfound-404 h3 {
+    font-family: 'Cabin', sans-serif;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #262626;
+    margin: 0px;
+    letter-spacing: 3px;
+    padding-left: 6px;
+  }
+  
+  .notfound h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .notfound .notfound-404 {
+      height: 200px;
+    }
+    .notfound .notfound-404 h1 {
+      font-size: 200px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .notfound .notfound-404 {
+      height: 162px;
+    }
+    .notfound .notfound-404 h1 {
+      font-size: 162px;
+      height: 150px;
+      line-height: 162px;
+    }
+    .notfound h2 {
+      font-size: 16px;
+    }
+  }
+  
+/*FIN NOT FOUND ERROR*/

@@ -1,0 +1,18 @@
+.category-tr td{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.category-tr th{
+    font-size: larger;
+    text-align: center; 
+}
+
+.category-image{
+    width: 110px;
+}
+
+.product-image{
+    width: 80px;
+    height: 80px;
+}
